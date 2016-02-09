@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main" type="layout">@layout/main_large_land</item>
+    <item name="hero" type="layout">@layout/hero_large_land</item>
+</resources>

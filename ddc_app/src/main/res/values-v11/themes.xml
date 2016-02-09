@@ -1,0 +1,5 @@
+<resources>
+    <style name="StdTheme" parent="@android:style/Theme.Holo">
+        <item name="numberPickerStyle">@style/NPWidget.Holo.NumberPicker</item>
+    </style>
+</resources>

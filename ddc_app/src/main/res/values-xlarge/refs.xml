@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main" type="layout">@layout/main_large</item>
+    <item name="category" type="layout">@layout/category_large</item>
+    <item name="item" type="layout">@layout/item_large</item>
+    <item name="preferences" type="layout">@layout/preferences_large</item>
+    <item name="item_add" type="layout">@layout/item_add_large</item>
+    <item name="edititemdialog" type="layout">@layout/edititemdialog_large</item>
+    <item name="hero" type="layout">@layout/hero_large</item>
+    <item name="rollresultitem" type="layout">@layout/rollresultitem_large</item>
+</resources>

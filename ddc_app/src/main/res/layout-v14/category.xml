@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/list_header"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignParentTop="true"
+            android:visibility="gone">
+    </TextView>
+
+    <LinearLayout android:id="@+id/roll_result"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true">
+
+        <Button
+                android:id="@+id/button_roll"
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/plain_die_white"/>
+
+        <Button
+                android:id="@+id/button_probability"
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/button_probability"/>
+
+        <Button
+                android:id="@+id/button_rollresult"
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/info_white"/>
+
+        <ImageView
+                android:id="@+id/icon_range"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="0.15"
+                android:layout_gravity="center"
+                android:src="@drawable/range"/>
+
+        <TextView
+                android:id="@+id/result_range"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="0.15"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center"/>
+
+        <ImageView
+                android:id="@+id/icon_surge"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="0.15"
+                android:layout_gravity="center"
+                android:src="@drawable/surge"/>
+
+        <TextView
+                android:id="@+id/result_surges"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="0.15"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center"/>
+
+        <ImageView
+                android:id="@+id/icon_damage"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="0.15"
+                android:layout_gravity="center"
+                android:src="@drawable/heart"/>
+
+        <TextView
+                android:id="@+id/result_damage"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="0.15"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <GridView
+            android:id="@+id/item_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:verticalSpacing="10dp"
+            android:gravity="center"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:drawSelectorOnTop="false"
+            android:layout_above="@+id/roll_result"
+            android:layout_below="@+id/list_header">
+    </GridView>
+
+</RelativeLayout>

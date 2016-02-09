@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Descent Dice Companion</string>
+    <string name="item_name_hint">Name</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Abbruch</string>
+    <string name="button_roll">!</string>
+    <string name="button_probability">%</string>
+    <string name="button_rollresult">i</string>
+    <string name="menu_delete">Löschen</string>
+    <string name="menu_edit">Bearbeiten</string>
+    <string name="rolled">Gewürfelt</string>
+    <string name="pool_empty">Würfelpool leer</string>
+    <string name="items_attack">Angriff</string>
+    <string name="items_defense">Abwehr</string>
+    <string name="edit_item_dialog_title_new">Neues Item</string>
+    <string name="edit_item_dialog_title_edit">Item bearbeiten</string>
+    <string name="probabilities_dialog_title">Wahrscheinlichkeiten</string>
+    <string name="computing_probability">Berechne Wahrscheinlichkeiten</string>
+    <string name="new_item">Item hinzufügen</string>
+    <string name="manual_title">Anleitung</string>
+    <string name="roll_canceled">Würfeln gestoppt</string>
+    <string name="item_max_dice_number">Maximal %1$s Würfel</string>
+    <string name="error">Fehler</string>
+    <string name="error_no_net">Es gab ein Problem beim Versuch, Random.org zu erreichen</string>
+    <string name="error_probabilities">Es gab ein Problem bei der Berechnung der Wahrscheinlichkeitsmatrix</string>
+    <string name="preferences_title">Einstellungen</string>
+    <string name="sound_category_title">Sound</string>
+    <string name="title_sound_preference">Würfeln</string>
+    <string name="summary_sound_preference">Soll es beim Würfeln einen Soundeffekt geben?</string>
+    <string name="operation_category_title">Bedienung</string>
+    <string name="title_newitemselected_preference">Voreinstellung für Aktivierung</string>
+    <string name="summary_newitemselected_preference">Sollen neue Items automatisch aktiviert sein?</string>
+    <string name="title_shake_preference">Schütteln</string>
+    <string name="summary_shake_preference">Soll durch Schütteln gewürfelt werden?</string>
+    <string name="randomnumber_category_title">Zufall</string>
+    <string name="title_randomorg_preference">Quelle</string>
+    <string name="summary_randomorg_preference">Soll Random.org genutzt werden? (Internet notwendig)</string>
+    <string name="manual">\n
+        Items für Angriff oder Abwehr werden in separaten Bereichen verwaltet. Ausserdem gibt es einen dritten
+        Bereich für Charakterbezogene Würfelproben.\n
+        \n
+        Ein Item hat folgende Eigenschaften:\n
+        - Aktiviert (im Würfelpool)\n
+        - Name\n
+        - Anzahl je Würfel\n
+        \n
+        Bei Klick auf den \'Würfel\'-Knopf werden alle Würfel der aktiven Items des jeweiligen Bereichs gesammelt und gewürfelt.
+        Das Ergebnis wird dann kumuliert neben dem \'Würfeln\'-Knopf angezeigt. \'X\' bedeutet Miss.\n
+        \n
+        Ein langer Klick auf ein Item öffnet das Kontextmenü. Hierüber lässt sich das Item löschen oder bearbeiten. Im
+        Bearbeiten-Dialog lässt sich der Name des Items und die Anzahl der Würfel je Farbe einstellen. Die Items
+        im Heldenbereich sind nicht bearbeitbar.\n
+        \n
+        Ein Klick auf den \'Wahrscheinlichkeits\'-Knopf öffnet eine tabellarische Darstellung. Diese listet auf, wie
+        wahrscheinlich es ist für den aktuellen Würfelpool, MINDESTENS eine Kombination aus Reichweite und Schaden zu
+        würfeln.
+        Wenn z.B. an der Kreuzung Reichweite = 4 und Schaden = 2 der Wert 23.34 steht, dann heisst das, dass man zu
+        23,34 Prozent Wahrscheinlichkeit eine Ergebnis würfelt, wo Reichweite >= 4 und Schaden >= 2 ist.\n
+        \n
+        Wenn ein Würfelergebnis vorliegt, zeigt ein Klick auf den \'Info\'-Knopf eine Detail-Übersicht des Würfelwurfes.
+        Hier können dann Würfel einzeln neu gewürfelt werden per Klick auf den jeweiligen Würfel.
+    </string>
+    <string name="icon_sword_name">Schwert</string>
+    <string name="icon_axe_name">Axt</string>
+    <string name="icon_bow_name">Bogen</string>
+    <string name="icon_staff_name">Stab</string>
+    <string name="icon_plate_name">Rüstung</string>
+    <string name="icon_shield_name">Schild</string>
+    <string name="icon_hammer_name">Hammer</string>
+    <string name="icon_dagger_name">Dolch</string>
+    <string name="icon_rune_name">Rune</string>
+    <string name="icon_sling_name">Schleuder</string>
+    <string name="icon_spear_name">Speer</string>
+    <string name="icon_boots_name">Stiefel</string>
+    <string name="icon_cloak_name">Umhang</string>
+    <string name="icon_gauntlets_name">Handschuhe</string>
+    <string name="icon_helmet_name">Helm</string>
+    <string name="icon_ring_name">Ring</string>
+    <string name="icon_crossbow_name">Armbrust</string>
+    <string name="items_hero">Held</string>
+    <string name="icon_standup_name">Aufstehen</string>
+    <string name="icon_characteristics_name">Attributs Prüfung</string>
+    <string name="roll_result_dialog_title">Würfel Ergebnis</string>
+    <string name="no_roll_result">Kein Würfel Ergebnis</string>
+    <string name="roll_dialog">Würfeln</string>
+    <string name="icon_die_name">Würfel</string>
+</resources>

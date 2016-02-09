@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Descent Dice Companion</string>
+    <string name="item_name_hint">Name</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_roll">!</string>
+    <string name="button_probability">%</string>
+    <string name="button_rollresult">i</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_edit">Edit</string>
+    <string name="rolled">Rolled</string>
+    <string name="pool_empty">Dicepool empty</string>
+    <string name="items_attack">Attack</string>
+    <string name="items_defense">Defense</string>
+    <string name="edit_item_dialog_title_new">New Item</string>
+    <string name="edit_item_dialog_title_edit">Edit Item</string>
+    <string name="probabilities_dialog_title">Probabilities</string>
+    <string name="computing_probability">Computing Probabilities</string>
+    <string name="new_item">Add Item</string>
+    <string name="manual_title">Manual</string>
+    <string name="roll_canceled">Roll canceled</string>
+    <string name="item_max_dice_number">%1$s dice maximum</string>
+    <string name="error">Error</string>
+    <string name="error_no_net">A problem occurred while trying to reach Random.org</string>
+    <string name="error_probabilities">A problem occurred while computing the Probability Matrix</string>
+    <string name="preferences_title">Preferences</string>
+    <string name="sound_category_title">Sound</string>
+    <string name="title_sound_preference">Dice-Roll</string>
+    <string name="summary_sound_preference">Should there be a sound-effect when rolling dice?</string>
+    <string name="operation_category_title">Handling</string>
+    <string name="title_newitemselected_preference">Default Active</string>
+    <string name="summary_newitemselected_preference">Should new items be activated by default?</string>
+    <string name="title_shake_preference">Shake</string>
+    <string name="summary_shake_preference">Should a Shake-Movement roll the dice?</string>
+    <string name="randomnumber_category_title">Randomness</string>
+    <string name="title_randomorg_preference">Source</string>
+    <string name="summary_randomorg_preference">Should Random.org be used? (Internet necessary)</string>
+    <string name="manual">\n
+        Items for Attack and Defense are organized in separate lists. Additionally there is a third tab for
+        dice rolls concerning your character.\n
+        \n
+        An Item has these properties:\n
+        - Active (in the Dicepool)\n
+        - Name\n
+        - Number for each die\n
+        \n
+        On clicking the \'Roll\' button all dice of all active Items of the respective list are gathered and rolled. The result is
+        then displayed beside the \'Roll\' button. \'X\' means Miss.\n
+        \n
+        On long-clicking an Item a context-menu is displayed. Here you can delete or edit the Item. In the Edit-Dialog
+        the name of the Item and the number of each die-type can be set. The items in the \'Hero\' tab are read-only.\n
+        \n
+        On clicking the \'Probability\' button a table is displayed. Here the MINIMAL probabilities are displayed for all
+        possible combinations of range and damage for the current dicepool.
+        For example, if for range = 4 and damage = 2 the value is 23.34 percent, then it means, that with 23.34 percent
+        probability the roll-result shows a combination with range >= 4 and damage >= 2.\n
+        \n
+        For the current roll result a click on the \'Info\' button opens a detail view for the roll result.
+        Here single dice can be rolled separately by clicking on them.
+    </string>
+    <string name="icon_sword_name">Sword</string>
+    <string name="icon_axe_name">Axe</string>
+    <string name="icon_bow_name">Bow</string>
+    <string name="icon_staff_name">Staff</string>
+    <string name="icon_plate_name">Armour</string>
+    <string name="icon_shield_name">Shield</string>
+    <string name="icon_hammer_name">Hammer</string>
+    <string name="icon_dagger_name">Dagger</string>
+    <string name="icon_rune_name">Rune</string>
+    <string name="icon_sling_name">Sling</string>
+    <string name="icon_spear_name">Spear</string>
+    <string name="icon_boots_name">Boots</string>
+    <string name="icon_cloak_name">Cloak</string>
+    <string name="icon_gauntlets_name">Gauntlets</string>
+    <string name="icon_helmet_name">Helmet</string>
+    <string name="icon_ring_name">Ring</string>
+    <string name="icon_crossbow_name">Crossbow</string>
+    <string name="items_hero">Hero</string>
+    <string name="icon_standup_name">Stand Up</string>
+    <string name="icon_characteristics_name">Attribute Check</string>
+    <string name="roll_result_dialog_title">Roll Result</string>
+    <string name="no_roll_result">No Roll Result available</string>
+    <string name="roll_dialog">Roll</string>
+    <string name="icon_die_name">Die</string>
+</resources>
