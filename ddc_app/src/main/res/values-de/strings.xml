@@ -33,6 +33,8 @@
     <string name="summary_newitemselected_preference">Sollen neue Items automatisch aktiviert sein?</string>
     <string name="title_shake_preference">Schütteln</string>
     <string name="summary_shake_preference">Soll durch Schütteln gewürfelt werden?</string>
+    <string name="title_openrolldetails_preference">Würfelwurf Details</string>
+    <string name="summary_openrolldetails_preference">Sollen die Würfelwurf-Details gleich angezeigt werden?</string>
     <string name="randomnumber_category_title">Zufall</string>
     <string name="title_randomorg_preference">Quelle</string>
     <string name="summary_randomorg_preference">Soll Random.org genutzt werden? (Internet notwendig)</string>

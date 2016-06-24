@@ -214,6 +214,11 @@ public class RollResultDialog extends DialogFragment implements LoaderManager.Lo
         //rolling = isRolling;
     }
 
+    @Override
+    public void rollResult() {
+        //don't open the roll-result dialog, as we are currently in the dialog
+    }
+
     public void setResult(String rangeResult, String surgesResult, String pointsResult) {
         rangeResultTextView.setText(rangeResult);
         surgesResultTextView.setText(surgesResult);

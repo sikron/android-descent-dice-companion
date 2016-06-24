@@ -17,6 +17,11 @@
                 android:title="@string/title_newitemselected_preference"
                 android:summary="@string/summary_newitemselected_preference"
                 android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="openrolldetails_preference"
+            android:title="@string/title_openrolldetails_preference"
+            android:summary="@string/summary_openrolldetails_preference"
+            android:defaultValue="false"/>
     </PreferenceCategory>
 
     <PreferenceCategory

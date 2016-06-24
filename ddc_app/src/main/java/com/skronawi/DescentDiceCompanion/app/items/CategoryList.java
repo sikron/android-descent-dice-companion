@@ -289,7 +289,7 @@ RollResultReceiver {
         });
     }
 
-    protected void rollResult() {
+    public void rollResult() {
         if (result == null) {
             showToast(R.string.no_roll_result, Toast.LENGTH_SHORT);
         } else {

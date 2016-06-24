@@ -33,9 +33,12 @@
     <string name="summary_newitemselected_preference">Should new items be activated by default?</string>
     <string name="title_shake_preference">Shake</string>
     <string name="summary_shake_preference">Should a Shake-Movement roll the dice?</string>
+    <string name="title_openrolldetails_preference">Default Show Roll Details</string>
+    <string name="summary_openrolldetails_preference">Should the roll details be opened immediately?</string>
     <string name="randomnumber_category_title">Randomness</string>
     <string name="title_randomorg_preference">Source</string>
     <string name="summary_randomorg_preference">Should Random.org be used? (Internet necessary)</string>
+
     <string name="manual">\n
         Items for Attack and Defense are organized in separate lists. Additionally there is a third tab for
         dice rolls concerning your character.\n

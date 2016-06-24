@@ -6,13 +6,15 @@ import java.util.Map;
 
 public interface RollResultReceiver {
 
-    public void showRollingBusyDialog(boolean doShow, String dialogRandomnessString);
+    void showRollingBusyDialog(boolean doShow, String dialogRandomnessString);
 
-    public void setResult(Map<Integer, DiceThrow> diceThrows);
+    void setResult(Map<Integer, DiceThrow> diceThrows);
 
     void clearResult();
 
-    public void showToast(int resourceId, int length);
+    void showToast(int resourceId, int length);
 
-    public void setRolling(boolean isRolling);
+    void setRolling(boolean isRolling);
+
+    void rollResult();
 }

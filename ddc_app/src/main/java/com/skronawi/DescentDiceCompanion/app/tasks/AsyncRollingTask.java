@@ -194,6 +194,11 @@ public class AsyncRollingTask extends AsyncTask<String, Integer, ResultOfAsyncTa
         } else {
             //Log.v(getClass().getCanonicalName(), "rolled result : " + formatResult(rollResult));
             rollResultReceiver.setResult(rollResult);
+            boolean showRollDetails = PreferenceManager.getDefaultSharedPreferences(activity)
+                    .getBoolean("openrolldetails_preference", false);
+            if (showRollDetails) {
+                rollResultReceiver.rollResult();
+            }
         }
 
         rollResultReceiver.setRolling(false);
